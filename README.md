@@ -1,8 +1,8 @@
 # fSelection
 
 [![sampctl](https://img.shields.io/badge/sampctl-fSelection-2f2f2f.svg?style=for-the-badge)](https://github.com/roesanne26/fSelection)
-![](https://media.discordapp.net/attachments/759415958937796649/766296419204071434/unknown.png)
-![](https://media.discordapp.net/attachments/759415958937796649/766296582576144384/unknown.png)
+
+![](https://media.discordapp.net/attachments/759415958937796649/766296419204071434/unknown.png)![](https://media.discordapp.net/attachments/759415958937796649/766296582576144384/unknown.png)
 <!--
 Short description of your library, why it's useful, some examples, pictures or
 videos. Link to your forum release thread too.
