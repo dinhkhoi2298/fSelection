@@ -275,6 +275,9 @@ hook OnPlayerClickPlayerTD(playerid, PlayerText:playertextid) {
 				PlayerPlaySound(playerid, fSS_CLICK, 0, 0, 0);
 				if(INVALID_FSELECTION_ID != fSelection[playerid][fs_fselection_id]) {
 					CallLocalFunction("OnFSelectionResponse", "dddd", playerid, fSelection[playerid][fs_fselection_id], fSelection[playerid][fs_item_modelid][index], fS_RESPONSE_CLICKED);
+          #if defined FSELECTION_AUTO_HIDE
+            fselection_hide(playerid);
+          #endif
 				}
 				return ~1;
 			}
