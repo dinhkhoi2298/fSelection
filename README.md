@@ -47,6 +47,16 @@ Include in your code and begin using the library:
 (require https://github.com/IllidanS4/PawnPlus)
 ## Usage
 
+## Defines
+
+```pawn
+#define FSELECTION_AUTO_HIDE  // Hide the fSelection menu after model selection. (Useful for people moving from mSelection)
+#include <fSelection>
+```
+
+Make sure its defined before the include!
+
+
 ### Functions
 ```pawn
 fselection_add_item(playerid, modelid, Float:rotx, Float:roty, Float:rotz, Float:zoom);
